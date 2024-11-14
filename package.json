@@ -1,0 +1,31 @@
+{
+  "name": "belajarnodejs",
+  "version": "1.0.0",
+  "description": "BelajarNodeJS",
+  "main": "index.js",
+  "scripts": {
+    "run": "node index.js",
+    "prestart": "echo 'Before Application Start'",
+    "start": "node index.js",
+    "poststart": "echo 'After Application Start'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "exports": {
+    ".": "./index.js",
+    "./write": "./write.js"
+  },
+  "dependencies": {
+  "lodash": "4.17.21"
+},
+  "keywords": [
+    "progammer",
+    "nodejs"
+  ],
+  "type": "module",
+  "author": "nauvalachid",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.1",
+    "lodash": "^4.17.21"
+  }
+}
